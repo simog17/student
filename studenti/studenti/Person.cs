@@ -35,19 +35,17 @@ namespace studenti
         {
             get
             {
-
-            }
-            set
-            {
-
+                return (name + surname + age);
             }
         }
 
         public Person (string name, string surname, int age)
         {
             _name = name;
-            _
+            _surname = surname;
+            _age = age;
         }
+
+        public string describe
     } 
-    }
 }
