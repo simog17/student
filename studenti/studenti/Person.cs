@@ -41,11 +41,19 @@ namespace studenti
 
         public Person (string name, string surname, int age)
         {
-            _name = name;
-            _surname = surname;
-            _age = age;
+            this.name = name;
+            this.surname = surname;
+            this.age = age;
         }
 
-        public string describe
+        public string describe()
+        {
+            string output = "nome : " + name + "\r\n";
+            output += "cognome : " + surname + "\r\n";
+            output +=  "anni : " + age + "\r\n";
+            output += "codice ficale : " + cf + "\r\n";
+
+            return output;
+        }
     } 
 }

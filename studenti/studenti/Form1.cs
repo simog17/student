@@ -19,7 +19,8 @@ namespace studenti
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
-        }
+            Person filippo = new Person("Filippo", "Rossi", 36);
+            Student riccardo = new Student("Riccardo", "Verdi", 12, "3F");
+   }
     }
 }
